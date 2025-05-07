@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Auris | Suport Clienți și Informații Căști Premium</title>
+    <meta
+      name="description"
+      content="Contactează echipa Auris pentru suport, întrebări despre produsele noastre de căști premium sau colaborări. Suntem aici pentru a te ajuta!"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">Auris</div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Acasă</a></li>
+            <li><a href="colectia.html">Colecția Noastră</a></li>
+            <li><a href="despre.html">Despre Noi</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-title-section">
+        <div class="container">
+          <h2>Conectează-te cu Auris</h2>
+          <p class="subtitle">
+            Ai întrebări sau dorești să afli mai multe? Echipa noastră este aici
+            pentru tine.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-form-section">
+        <div class="container contact-grid">
+          <div class="contact-form-container">
+            <h3>Trimite-ne un Mesaj</h3>
+            <form action="#" method="POST" class="contact-form">
+              <div class="form-group">
+                <label for="name">Nume:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subiect:</label>
+                <select id="subject" name="subject">
+                  <option value="intrebare_produs">Întrebare Produs</option>
+                  <option value="suport_tehnic">Suport Tehnic</option>
+                  <option value="comanda">Informații Comandă</option>
+                  <option value="colaborare">Colaborare</option>
+                  <option value="altele">Altele</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Mesajul tău:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="cta-button">Trimite Mesajul</button>
+            </form>
+          </div>
+
+          <div class="contact-details-container">
+            <h3>Date de Contact</h3>
+            <div class="contact-info-item">
+              <img src="img/icon-email.png" alt="Email" class="contact-icon" />
+              <div>
+                <strong>Email:</strong>
+                <p>
+                  <a href="mailto:suport@auris-sound.ro"
+                    >suport@auris-sound.md</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <img
+                src="img/icon-phone.png"
+                alt="Telefon"
+                class="contact-icon"
+              />
+              <div>
+                <strong>Telefon:</strong>
+                <p><a href="tel:+40720123456">+373 68040401</a></p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <img
+                src="img/icon-location.png"
+                alt="Adresă"
+                class="contact-icon"
+              />
+              <div>
+                <strong>Adresă (Showroom):</strong>
+                <p>
+                  Strada Mitropolit Gavriil Bănulescu-Bodoni 61<br />Chișinău,
+                  Moldova
+                </p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <img
+                src="img/icon-clock.png"
+                alt="Program"
+                class="contact-icon"
+              />
+              <div>
+                <strong>Program Suport:</strong>
+                <p>Luni - Vineri: 9:00 - 18:00</p>
+              </div>
+            </div>
+            <!-- Opțional: Hartă -->
+            <div class="map-container">
+              <h4>Locația Noastră</h4>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2719.483623261897!2d28.837559199999994!3d47.030740099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97c4afafb0fb1%3A0xfd4d2ad0eae9d8e9!2sAcademy%20of%20Economic%20Studies%20of%20Moldova!5e0!3m2!1sen!2sjp!4v1746582261812!5m2!1sen!2sjp"
+                width="100%"
+                height="250"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">Auris</div>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"
+              ><img src="img/icon-facebook.png" alt="Facebook"
+            /></a>
+            <a href="#" aria-label="Instagram"
+              ><img src="img/icon-instagram.png" alt="Instagram"
+            /></a>
+            <a href="#" aria-label="YouTube"
+              ><img src="img/icon-youtube.png" alt="YouTube"
+            /></a>
+          </div>
+        </div>
+        <p>
+          &copy; 2024 Auris - Premium Sound Experience. Toate drepturile
+          rezervate.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
